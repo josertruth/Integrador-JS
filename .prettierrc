@@ -1,0 +1,8 @@
+{
+    "tabWidth": 4,
+    "semi": true,
+    "bracketSpacing": true,
+    "bracketLime": true,
+    "printWidth": 150,
+    "trailingComma": "es5"
+}

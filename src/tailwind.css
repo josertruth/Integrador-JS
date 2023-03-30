@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+    @apply py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300;
+}
+
+.mobile-link {
+    @apply flex justify-center items-center w-full text-sm px-2 py-4 hover:bg-green-500 transition  duration-300;
+}
+
+.g-buttom {
+    @apply inline-block rounded-xl mb-5 bg-green-500 px-7 py-2.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0;
+}
+
+.filter-Btn {
+    @apply border-green-200 border-4 hover:border-green-500 font-medium rounded-lg mb-2 text-sm px-4 py-2.5 text-center inline-flex items-center;
+}
+
+.card-style {
+    @apply rounded overflow-hidden shadow-lg mb-3;
+}
+
+.green-Btn {
+    @apply text-white bg-green-700 hover:bg-green-800 font-medium rounded-lg mb-2 text-sm px-4 py-2.5 text-center inline-flex items-center;
+}
+
+.active-Btn {
+    @apply border-green-600 border-4 hover:border-green-600  font-medium rounded-lg mb-2 text-sm px-4 py-2.5 text-center inline-flex items-center;
+}
+
+.open-cart {
+    @apply transition ease-in-out duration-500 origin-right transform translate-x-4;
+}
+
+.open-menu {
+    @apply flex;
+}
+
+.overlay {
+    @apply top-24 left-0 h-screen w-full bg-opacity-25 backdrop-filter backdrop-blur-lg z-30;
+}
+
+.show-overlay {
+    @apply block;
+}
+
+.disabled {
+    @apply border-none bg-gray-400;
+}
+
+.active-modal {
+    @apply transform translate-y-0;
+}
